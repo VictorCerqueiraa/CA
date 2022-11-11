@@ -1,0 +1,38 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+}
+table{
+    background-color: rgb(169, 169, 172);
+    width: 700px;
+    height: 100vh;
+    margin: 50px auto;
+}
+
+tr{
+ display: flex;
+}
+td{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+}
+.btn{
+    display: flex;
+    background-color: black;
+    padding: 5px;
+    width: 80px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: 3px;
+}

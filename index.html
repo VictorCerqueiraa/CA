@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+  <section>
+   <div class="box">
+      <div class="titulo"><h1>Cadastro</h1></div>
+      <form action="" method="post">
+      <div class="lab">
+          <label for="name">Nome</label>
+          <p class="ob">*</p>
+        </div>
+        <input type="text" name="name" id="name"  required>
+
+        <div class="lab"> 
+            <label for="cpf">Cpf</label>
+            <p class="ob">*</p>
+        </div>   
+        <input type="text" name="cpf" id="cpf" required value="000.000.000-00" >
+        
+        <div class="lab"> 
+            <label for="cel">Celular</label>
+            <p class="ob">*</p>
+        </div>
+        <input type="text" name="cel" id="cel" required value="00.0000-0000"  >
+        
+        <div class="lab">    
+        <label for="dt-nas">Data de Nascimento</label>
+        <p class="ob">*</p>
+        </div> 
+        <input type="date" name="dt-nas" id="dt-nas" required >
+        <div class="btn">
+        <button>Cadastrar</button>
+        </div>
+      </form>
+      <div class="footer-box">
+        <p class="ob-footer">*</p> 
+        <p class="p-footer">campos obrigatorios</p> 
+      </div>
+    </div>
+</section>
+</body>
+</html>
